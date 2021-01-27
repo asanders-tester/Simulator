@@ -8,25 +8,31 @@ public class TestCases {
 	
 	@Test
 	public void lengthOfPassword() {
-		tester = new PasswordTester("password123");
+		tester = new PasswordTester("password123", "admin");
 		assertTrue(tester.isLongEnough());
 	}
 	
 	@Test
 	public void containsLetter() {
-		tester = new PasswordTester("12345");
+		tester = new PasswordTester("12345", "admin");
 		assertTrue(tester.hasLetter());
 	}
 	
 	@Test
 	public void containsNumber() {
-		tester = new PasswordTester("password123");
+		tester = new PasswordTester("password123", "admin");
 		assertTrue(tester.hasNumber());
 	}
 	
 	@Test
+	public void containsSpecialChars() {
+		tester = new PasswordTester("password1234!", "admin");
+		assertTrue(tester.hasSpecialChar());
+	}
+	
+	@Test
 	public void errorMessage() {
-		tester = new PasswordTester("12345");
+		tester = new PasswordTester("12345", "admin");
 		if(tester.isLongEnough() && tester.hasLetter() && !tester.hasNumber()) {
 			System.out.println("Error: Password does not contain a number");
 			assertTrue(tester.isLongEnough() && tester.hasLetter() && tester.hasNumber());
@@ -53,5 +59,7 @@ public class TestCases {
 			assertTrue(tester.isLongEnough() && tester.hasLetter() && tester.hasNumber());
 		}
 	}
+	
+	
 
 }

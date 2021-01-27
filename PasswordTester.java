@@ -4,16 +4,23 @@
 
 		private String password;
 		private char ch;
+		private String user;
 		public static final int PSSWD_LEN = 8;
+		public static final int ADMIN_PSSWD_LEN = 13;
 		
 		//constructs a new class object
-		public PasswordTester(String password) {
+		public PasswordTester(String password, String user) {
 			this.password = password;
+			this.user = user;
 		}
 		
 		//checks if the password length is adequate
 		public boolean isLongEnough() {
-			if(password.length() < PSSWD_LEN) {
+			if(user.contains("admin")) {
+				if(password.length() < ADMIN_PSSWD_LEN) {
+					return false;
+				}
+			} else if(password.length() < PSSWD_LEN) {
 				return false;
 			}
 			return true;
@@ -36,6 +43,36 @@
 				ch = password.charAt(i);
 				if(Character.isDigit(ch)) {
 					return true;
+				}
+			}
+			return false;
+		}
+		
+		//checks if the user is an admin
+		public boolean isAdmin() {
+			if(user.equalsIgnoreCase("Admin")) {
+				return true;
+			}
+			return false;
+		}
+		
+		//checks if the password contains at least 1 special character
+		public boolean hasSpecialChar() {
+			String specialChars = "!@#$%^&*";
+			if(isAdmin()==true) {
+				for(int i = 0; i < specialChars.length(); i++) {
+					ch = specialChars.charAt(i);
+					if(password.contains(String.valueOf(ch))) {
+						return true;
+					}
+				}
+			}
+			if(user.contains("normal")) {
+				for(int i = 0; i < specialChars.length(); i++) {
+					ch = specialChars.charAt(i);
+					if(password.contains(String.valueOf(ch)) || !password.contains(String.valueOf(ch))) {
+						return true;
+					}
 				}
 			}
 			return false;
