@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-12T23:01:59 PST" name="SwagLab" finished-at="2021-03-12T23:03:19 PST" duration-ms="80215">
+    <groups>
+    </groups>
+    <test started-at="2021-03-12T23:01:59 PST" name="Validating Title and User Login" finished-at="2021-03-12T23:02:20 PST" duration-ms="20872">
+      <class name="automationChallenge.LoginPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:01:59 PST" name="initialize" finished-at="2021-03-12T23:02:03 PST" duration-ms="3507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testInvalidLoginAccounts(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:03 PST" name="testInvalidLoginAccounts" data-provider="invalid" finished-at="2021-03-12T23:02:03 PST" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginAccounts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:03 PST" name="tearDown" finished-at="2021-03-12T23:02:04 PST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:04 PST" name="initialize" finished-at="2021-03-12T23:02:05 PST" duration-ms="1782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testInvalidLoginAccounts(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:05 PST" name="testInvalidLoginAccounts" data-provider="invalid" finished-at="2021-03-12T23:02:06 PST" duration-ms="276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secretsauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginAccounts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:06 PST" name="tearDown" finished-at="2021-03-12T23:02:07 PST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:07 PST" name="initialize" finished-at="2021-03-12T23:02:08 PST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testValidLoginAccounts(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:08 PST" name="testValidLoginAccounts" data-provider="valid" finished-at="2021-03-12T23:02:09 PST" duration-ms="393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginAccounts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:09 PST" name="tearDown" finished-at="2021-03-12T23:02:09 PST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:09 PST" name="initialize" finished-at="2021-03-12T23:02:11 PST" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testValidLoginAccounts(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:11 PST" name="testValidLoginAccounts" data-provider="valid" finished-at="2021-03-12T23:02:17 PST" duration-ms="5368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginAccounts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:17 PST" name="tearDown" finished-at="2021-03-12T23:02:17 PST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:17 PST" name="initialize" finished-at="2021-03-12T23:02:19 PST" duration-ms="1893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateTitle()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:19 PST" name="validateTitle" finished-at="2021-03-12T23:02:19 PST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.LoginPageTest@17c386de]" started-at="2021-03-12T23:02:19 PST" name="tearDown" finished-at="2021-03-12T23:02:20 PST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationChallenge.LoginPageTest -->
+    </test> <!-- Validating Title and User Login -->
+    <test started-at="2021-03-12T23:02:20 PST" name="Validating Add To and Remove From Cart" finished-at="2021-03-12T23:02:54 PST" duration-ms="33816">
+      <class name="automationChallenge.ProductsPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:20 PST" name="initialize" finished-at="2021-03-12T23:02:22 PST" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="addItemsToCart(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:22 PST" name="addItemsToCart" data-provider="valid" finished-at="2021-03-12T23:02:23 PST" duration-ms="770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:23 PST" name="tearDown" finished-at="2021-03-12T23:02:23 PST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:23 PST" name="initialize" finished-at="2021-03-12T23:02:25 PST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="addItemsToCart(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:25 PST" name="addItemsToCart" data-provider="valid" finished-at="2021-03-12T23:02:31 PST" duration-ms="5452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:31 PST" name="tearDown" finished-at="2021-03-12T23:02:31 PST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:31 PST" name="initialize" finished-at="2021-03-12T23:02:33 PST" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="removeItemsFromCart(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:33 PST" name="removeItemsFromCart" data-provider="valid" finished-at="2021-03-12T23:02:34 PST" duration-ms="611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemsFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:34 PST" name="tearDown" finished-at="2021-03-12T23:02:35 PST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:35 PST" name="initialize" finished-at="2021-03-12T23:02:36 PST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="removeItemsFromCart(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:36 PST" name="removeItemsFromCart" data-provider="valid" finished-at="2021-03-12T23:02:42 PST" duration-ms="5638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemsFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:42 PST" name="tearDown" finished-at="2021-03-12T23:02:43 PST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:43 PST" name="initialize" finished-at="2021-03-12T23:02:45 PST" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyTestAllThingsShirt(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:45 PST" name="verifyTestAllThingsShirt" data-provider="valid" finished-at="2021-03-12T23:02:45 PST" duration-ms="496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestAllThingsShirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:45 PST" name="tearDown" finished-at="2021-03-12T23:02:46 PST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:46 PST" name="initialize" finished-at="2021-03-12T23:02:48 PST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyTestAllThingsShirt(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:48 PST" name="verifyTestAllThingsShirt" data-provider="valid" finished-at="2021-03-12T23:02:53 PST" duration-ms="5465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestAllThingsShirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.ProductsPageTest@3e3047e6]" started-at="2021-03-12T23:02:53 PST" name="tearDown" finished-at="2021-03-12T23:02:54 PST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationChallenge.ProductsPageTest -->
+    </test> <!-- Validating Add To and Remove From Cart -->
+    <test started-at="2021-03-12T23:02:54 PST" name="Validating Total Price" finished-at="2021-03-12T23:03:06 PST" duration-ms="12598">
+      <class name="automationChallenge.CheckoutOverviewPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.CheckoutOverviewPageTest@327b636c]" started-at="2021-03-12T23:02:54 PST" name="initialize" finished-at="2021-03-12T23:02:56 PST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyTotal(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.CheckoutOverviewPageTest@327b636c]" started-at="2021-03-12T23:02:56 PST" name="verifyTotal" data-provider="valid" finished-at="2021-03-12T23:02:57 PST" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.CheckoutOverviewPageTest@327b636c]" started-at="2021-03-12T23:02:57 PST" name="tearDown" finished-at="2021-03-12T23:02:58 PST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.CheckoutOverviewPageTest@327b636c]" started-at="2021-03-12T23:02:58 PST" name="initialize" finished-at="2021-03-12T23:02:59 PST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyTotal(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.CheckoutOverviewPageTest@327b636c]" started-at="2021-03-12T23:02:59 PST" name="verifyTotal" data-provider="valid" finished-at="2021-03-12T23:03:06 PST" duration-ms="6186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.CheckoutOverviewPageTest@327b636c]" started-at="2021-03-12T23:03:06 PST" name="tearDown" finished-at="2021-03-12T23:03:06 PST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationChallenge.CheckoutOverviewPageTest -->
+    </test> <!-- Validating Total Price -->
+    <test started-at="2021-03-12T23:03:06 PST" name="Validating Pony Express Image" finished-at="2021-03-12T23:03:19 PST" duration-ms="12880">
+      <class name="automationChallenge.FinishPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.FinishPageTest@add0edd]" started-at="2021-03-12T23:03:06 PST" name="initialize" finished-at="2021-03-12T23:03:08 PST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyPonyExpressImage(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.FinishPageTest@add0edd]" started-at="2021-03-12T23:03:08 PST" name="verifyPonyExpressImage" data-provider="valid" finished-at="2021-03-12T23:03:10 PST" duration-ms="1487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPonyExpressImage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.FinishPageTest@add0edd]" started-at="2021-03-12T23:03:10 PST" name="tearDown" finished-at="2021-03-12T23:03:10 PST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:automationChallenge.FinishPageTest@add0edd]" started-at="2021-03-12T23:03:10 PST" name="initialize" finished-at="2021-03-12T23:03:12 PST" duration-ms="1822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyPonyExpressImage(java.lang.String, java.lang.String)[pri:0, instance:automationChallenge.FinishPageTest@add0edd]" started-at="2021-03-12T23:03:12 PST" name="verifyPonyExpressImage" data-provider="valid" finished-at="2021-03-12T23:03:19 PST" duration-ms="6262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPonyExpressImage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationChallenge.FinishPageTest@add0edd]" started-at="2021-03-12T23:03:19 PST" name="tearDown" finished-at="2021-03-12T23:03:19 PST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationChallenge.FinishPageTest -->
+    </test> <!-- Validating Pony Express Image -->
+  </suite> <!-- SwagLab -->
+</testng-results>

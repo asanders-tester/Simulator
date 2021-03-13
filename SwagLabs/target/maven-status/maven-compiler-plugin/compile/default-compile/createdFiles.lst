@@ -1,0 +1,7 @@
+pageObjects\LoginPage.class
+pageObjects\ShoppingCartPage.class
+pageObjects\CheckoutOverviewPage.class
+resources\Base.class
+pageObjects\ProductsPage.class
+pageObjects\CheckoutInfoPage.class
+pageObjects\FinishPage.class

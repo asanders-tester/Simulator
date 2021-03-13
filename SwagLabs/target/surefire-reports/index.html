@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SwagLab" class="navigator-link">
+              <span class="suite-name border-passed">SwagLab</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SwagLab" class="navigator-link ">
+                    <span>C:\Users\April\Selenium-workspace\SwagLabs\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SwagLab" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SwagLab" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SwagLab" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SwagLab" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SwagLab" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SwagLab" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SwagLab" class="hide-methods passed suite-SwagLab"> (hide)</a> <!-- hide-methods passed suite-SwagLab -->
+                      <a href="#" panel-name="suite-SwagLab" class="show-methods passed suite-SwagLab"> (show)</a> <!-- show-methods passed suite-SwagLab -->
+                    </span>
+                    <div class="method-list-content passed suite-SwagLab">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.ProductsPageTest" class="method navigator-link" hash-for-method="addItemsToCart(standard_user, secret_sauce)">addItemsToCart(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.ProductsPageTest" class="method navigator-link" hash-for-method="addItemsToCart(performance_glitch_user, secret_sauce)">addItemsToCart(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.ProductsPageTest" class="method navigator-link" hash-for-method="removeItemsFromCart(performance_glitch_user, secret_sauce)">removeItemsFromCart(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.ProductsPageTest" class="method navigator-link" hash-for-method="removeItemsFromCart(standard_user, secret_sauce)">removeItemsFromCart(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.LoginPageTest" class="method navigator-link" hash-for-method="testInvalidLoginAccounts(locked_out_user, secret_sauce)">testInvalidLoginAccounts(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.LoginPageTest" class="method navigator-link" hash-for-method="testInvalidLoginAccounts(standard_user, secretsauce)">testInvalidLoginAccounts(standard_user, secretsauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.LoginPageTest" class="method navigator-link" hash-for-method="testValidLoginAccounts(performance_glitch_user, secret_sauce)">testValidLoginAccounts(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.LoginPageTest" class="method navigator-link" hash-for-method="testValidLoginAccounts(standard_user, secret_sauce)">testValidLoginAccounts(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.LoginPageTest" class="method navigator-link" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.FinishPageTest" class="method navigator-link" hash-for-method="verifyPonyExpressImage(performance_glitch_user, secret_sauce)">verifyPonyExpressImage(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.FinishPageTest" class="method navigator-link" hash-for-method="verifyPonyExpressImage(standard_user, secret_sauce)">verifyPonyExpressImage(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.ProductsPageTest" class="method navigator-link" hash-for-method="verifyTestAllThingsShirt(performance_glitch_user, secret_sauce)">verifyTestAllThingsShirt(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.ProductsPageTest" class="method navigator-link" hash-for-method="verifyTestAllThingsShirt(standard_user, secret_sauce)">verifyTestAllThingsShirt(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.CheckoutOverviewPageTest" class="method navigator-link" hash-for-method="verifyTotal(performance_glitch_user, secret_sauce)">verifyTotal(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLab" title="automationChallenge.CheckoutOverviewPageTest" class="method navigator-link" hash-for-method="verifyTotal(standard_user, secret_sauce)">verifyTotal(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SwagLab -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SwagLab" class="panel SwagLab">
+          <div class="suite-SwagLab-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationChallenge.FinishPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPonyExpressImage(performance_glitch_user, secret_sauce)">
+                  </a> <!-- verifyPonyExpressImage(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">verifyPonyExpressImage</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPonyExpressImage(standard_user, secret_sauce)">
+                  </a> <!-- verifyPonyExpressImage(standard_user, secret_sauce) -->
+                  <span class="method-name">verifyPonyExpressImage</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SwagLab-class-passed -->
+          <div class="suite-SwagLab-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationChallenge.ProductsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemsToCart(standard_user, secret_sauce)">
+                  </a> <!-- addItemsToCart(standard_user, secret_sauce) -->
+                  <span class="method-name">addItemsToCart</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemsToCart(performance_glitch_user, secret_sauce)">
+                  </a> <!-- addItemsToCart(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">addItemsToCart</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItemsFromCart(performance_glitch_user, secret_sauce)">
+                  </a> <!-- removeItemsFromCart(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">removeItemsFromCart</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItemsFromCart(standard_user, secret_sauce)">
+                  </a> <!-- removeItemsFromCart(standard_user, secret_sauce) -->
+                  <span class="method-name">removeItemsFromCart</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTestAllThingsShirt(performance_glitch_user, secret_sauce)">
+                  </a> <!-- verifyTestAllThingsShirt(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">verifyTestAllThingsShirt</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTestAllThingsShirt(standard_user, secret_sauce)">
+                  </a> <!-- verifyTestAllThingsShirt(standard_user, secret_sauce) -->
+                  <span class="method-name">verifyTestAllThingsShirt</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SwagLab-class-passed -->
+          <div class="suite-SwagLab-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationChallenge.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLoginAccounts(locked_out_user, secret_sauce)">
+                  </a> <!-- testInvalidLoginAccounts(locked_out_user, secret_sauce) -->
+                  <span class="method-name">testInvalidLoginAccounts</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLoginAccounts(standard_user, secretsauce)">
+                  </a> <!-- testInvalidLoginAccounts(standard_user, secretsauce) -->
+                  <span class="method-name">testInvalidLoginAccounts</span>
+                  <span class="parameters">(standard_user, secretsauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLoginAccounts(performance_glitch_user, secret_sauce)">
+                  </a> <!-- testValidLoginAccounts(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">testValidLoginAccounts</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLoginAccounts(standard_user, secret_sauce)">
+                  </a> <!-- testValidLoginAccounts(standard_user, secret_sauce) -->
+                  <span class="method-name">testValidLoginAccounts</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitle">
+                  </a> <!-- validateTitle -->
+                  <span class="method-name">validateTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SwagLab-class-passed -->
+          <div class="suite-SwagLab-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationChallenge.CheckoutOverviewPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotal(performance_glitch_user, secret_sauce)">
+                  </a> <!-- verifyTotal(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">verifyTotal</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotal(standard_user, secret_sauce)">
+                  </a> <!-- verifyTotal(standard_user, secret_sauce) -->
+                  <span class="method-name">verifyTotal</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SwagLab-class-passed -->
+        </div> <!-- panel SwagLab -->
+        <div panel-name="test-xml-SwagLab" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\April\Selenium-workspace\SwagLabs\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SwagLab&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validating Title and User Login&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automationChallenge.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validating Title and User Login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validating Add To and Remove From Cart&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automationChallenge.ProductsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validating Add To and Remove From Cart --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validating Total Price&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automationChallenge.CheckoutOverviewPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validating Total Price --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validating Pony Express Image&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automationChallenge.FinishPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validating Pony Express Image --&gt;
+&lt;/suite&gt; &lt;!-- SwagLab --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SwagLab" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SwagLab</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Validating Title and User Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validating Add To and Remove From Cart (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validating Total Price (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validating Pony Express Image (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SwagLab" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SwagLab</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SwagLab" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SwagLab</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SwagLab');
+function tableData_SwagLab() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyPonyExpressImage')
+data.setCell(0, 2, 'automationChallenge.FinishPageTest')
+data.setCell(0, 3, 6262);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyTotal')
+data.setCell(1, 2, 'automationChallenge.CheckoutOverviewPageTest')
+data.setCell(1, 3, 6186);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'removeItemsFromCart')
+data.setCell(2, 2, 'automationChallenge.ProductsPageTest')
+data.setCell(2, 3, 5638);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyTestAllThingsShirt')
+data.setCell(3, 2, 'automationChallenge.ProductsPageTest')
+data.setCell(3, 3, 5465);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addItemsToCart')
+data.setCell(4, 2, 'automationChallenge.ProductsPageTest')
+data.setCell(4, 3, 5452);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testValidLoginAccounts')
+data.setCell(5, 2, 'automationChallenge.LoginPageTest')
+data.setCell(5, 3, 5368);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyPonyExpressImage')
+data.setCell(6, 2, 'automationChallenge.FinishPageTest')
+data.setCell(6, 3, 1487);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyTotal')
+data.setCell(7, 2, 'automationChallenge.CheckoutOverviewPageTest')
+data.setCell(7, 3, 1277);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addItemsToCart')
+data.setCell(8, 2, 'automationChallenge.ProductsPageTest')
+data.setCell(8, 3, 770);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'removeItemsFromCart')
+data.setCell(9, 2, 'automationChallenge.ProductsPageTest')
+data.setCell(9, 3, 611);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyTestAllThingsShirt')
+data.setCell(10, 2, 'automationChallenge.ProductsPageTest')
+data.setCell(10, 3, 496);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testValidLoginAccounts')
+data.setCell(11, 2, 'automationChallenge.LoginPageTest')
+data.setCell(11, 3, 393);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testInvalidLoginAccounts')
+data.setCell(12, 2, 'automationChallenge.LoginPageTest')
+data.setCell(12, 3, 337);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testInvalidLoginAccounts')
+data.setCell(13, 2, 'automationChallenge.LoginPageTest')
+data.setCell(13, 3, 276);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateTitle')
+data.setCell(14, 2, 'automationChallenge.LoginPageTest')
+data.setCell(14, 3, 21);
+window.suiteTableData['SwagLab']= { tableData: data, tableDiv: 'times-div-SwagLab'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-SwagLab">
+              </div> <!-- times-div-SwagLab -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SwagLab" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SwagLab</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SwagLab" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SwagLab" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationChallenge.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLoginAccounts(locked_out_user, secret_sauce)</span>
+                <span class="method-start">3508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">4589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLoginAccounts(standard_user, secretsauce)</span>
+                <span class="method-start">6371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">7389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidLoginAccounts(standard_user, secret_sauce)</span>
+                <span class="method-start">9198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">10340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidLoginAccounts(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">12101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">18209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTitle</span>
+                <span class="method-start">20102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20123 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationChallenge.ProductsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">20872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addItemsToCart(standard_user, secret_sauce)</span>
+                <span class="method-start">22672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23442 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">24207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addItemsToCart(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">25979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">32240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeItemsFromCart(standard_user, secret_sauce)</span>
+                <span class="method-start">34079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">35458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeItemsFromCart(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">37281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">43676 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTestAllThingsShirt(standard_user, secret_sauce)</span>
+                <span class="method-start">45456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45952 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">46667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTestAllThingsShirt(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">48465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53931 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationChallenge.CheckoutOverviewPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">54701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTotal(standard_user, secret_sauce)</span>
+                <span class="method-start">56510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">58513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTotal(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">60345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66531 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationChallenge.FinishPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">67307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPonyExpressImage(standard_user, secret_sauce)</span>
+                <span class="method-start">69104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">71370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPonyExpressImage(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">73192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79455 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLab]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Validating Title and User Login(failed)" verbose="0">
+    <classes>
+      <class name="automationChallenge.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="validateTitle"/>
+          <include name="testValidLoginAccounts"/>
+          <include name="testInvalidLoginAccounts"/>
+        </methods>
+      </class> <!-- automationChallenge.LoginPageTest -->
+    </classes>
+  </test> <!-- Validating Title and User Login(failed) -->
+  <test thread-count="5" name="Validating Add To and Remove From Cart(failed)" verbose="0">
+    <classes>
+      <class name="automationChallenge.ProductsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="removeItemsFromCart"/>
+          <include name="verifyTestAllThingsShirt"/>
+          <include name="addItemsToCart"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- automationChallenge.ProductsPageTest -->
+    </classes>
+  </test> <!-- Validating Add To and Remove From Cart(failed) -->
+  <test thread-count="5" name="Validating Total Price(failed)" verbose="0">
+    <classes>
+      <class name="automationChallenge.CheckoutOverviewPageTest">
+        <methods>
+          <include name="verifyTotal"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationChallenge.CheckoutOverviewPageTest -->
+    </classes>
+  </test> <!-- Validating Total Price(failed) -->
+  <test thread-count="5" name="Validating Pony Express Image(failed)" verbose="0">
+    <classes>
+      <class name="automationChallenge.FinishPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyPonyExpressImage"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- automationChallenge.FinishPageTest -->
+    </classes>
+  </test> <!-- Validating Pony Express Image(failed) -->
+</suite> <!-- Failed suite [SwagLab] -->
